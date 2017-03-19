@@ -1,0 +1,23 @@
+{
+  "name": "mobile-life-backend",
+  "version": "1.0.0",
+  "description": "Mobile Life backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viliusr/mobile-life-backend.git"
+  },
+  "author": "Vilius Roškus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
