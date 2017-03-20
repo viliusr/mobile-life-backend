@@ -1,9 +1,5 @@
+const config = require('../config.json')
 const questions = require('../questions.json')
-const config = {
-  numberOfQuestions: 2,
-  mistakesAllowed: 0,
-  allowSkipQuestions: false
-}
 
 class QuestionsCtrl {
 

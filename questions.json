@@ -1,38 +1,94 @@
 [
   { "id": 1, 
-    "text": "Question 1", 
+    "text": "Inside which HTML element do we put the JavaScript?", 
     "answers": [
-      { "id": 1, "text": "OK" },
-      { "id": 2, "text": "OK2" },
-      { "id": 3, "text": "OK3" }
+      { "id": 1, "text": "<javascript>" },
+      { "id": 2, "text": "<scripting>" },
+      { "id": 3, "text": "<js>" },
+      { "id": 4, "text": "<script>" }
     ], 
-    "correct": 1 
+    "correct": 4 
   },
   { "id": 2, 
-    "text": "Question 2", 
+    "text": "What is the correct syntax for referring to an external script called \"xxx.js\"?", 
     "answers": [
-      { "id": 1, "text": "OK" },
-      { "id": 2, "text": "OK2" },
-      { "id": 3, "text": "OK3" }
+      { "id": 1, "text": "<script name=\"xxx.js\">" },
+      { "id": 2, "text": "<script src=\"xxx.js\">" },
+      { "id": 3, "text": "<script href=\"xxx.js\">" }
     ], 
     "correct": 2 
   },
   { "id": 3, 
-    "text": "Question 3", 
+    "text": "How do you write \"Hello World\" in an alert box?", 
     "answers": [
-      { "id": 1, "text": "OK" },
-      { "id": 2, "text": "OK2" },
-      { "id": 3, "text": "OK3" }
+      { "id": 1, "text": "alertBox(\"Hello World\");" },
+      { "id": 2, "text": "msgBox(\"Hello World\");" },
+      { "id": 3, "text": "msg(\"Hello World\");" },
+      { "id": 4, "text": "alert(\"Hello World\");" }
     ], 
-    "correct": 1 
+    "correct": 4 
   },
   { "id": 4, 
-    "text": "Question 4", 
+    "text": "How do you create a function in JavaScript?", 
     "answers": [
-      { "id": 1, "text": "OK" },
-      { "id": 2, "text": "OK2" },
-      { "id": 3, "text": "OK4" }
+      { "id": 1, "text": "function:myFunction()" },
+      { "id": 2, "text": "function myFunction()" },
+      { "id": 3, "text": "function = myFunction()" }
+    ],
+    "correct": 2 
+  },
+  { "id": 5, 
+    "text": "How do you call a function named \"myFunction\"?", 
+    "answers": [
+      { "id": 1, "text": "call myFunction()" },
+      { "id": 2, "text": "call function myFunction()" },
+      { "id": 3, "text": "myFunction()" }
     ],
     "correct": 3 
+  },
+  { "id": 6, 
+    "text": "How far is the Moon?", 
+    "answers": [
+      { "id": 1, "text": "384 400 km" },
+      { "id": 2, "text": "348 400 km" },
+      { "id": 3, "text": "364 800 km" }
+    ],
+    "correct": 1 
+  },
+  { "id": 7, 
+    "text": "How long does light travels from Sun to Earth?", 
+    "answers": [
+      { "id": 1, "text": "2 min 41 s" },
+      { "id": 2, "text": "8 min 19 s" },
+      { "id": 3, "text": "5 min 33 s" }
+    ],
+    "correct": 2 
+  },
+  { "id": 8, 
+    "text": "How long did it take Apollo 11 to roundtrip to the moon and back?", 
+    "answers": [
+      { "id": 1, "text": "6 days 12 hours 8 minutes 47 seconds" },
+      { "id": 2, "text": "9 days 8 hours 27 minutes 12 seconds" },
+      { "id": 3, "text": "8 days 3 hours 18 minutes 35 seconds" }
+    ],
+    "correct": 3 
+  },
+  { "id": 9, 
+    "text": "What temperature do we need to vapor gold?", 
+    "answers": [
+      { "id": 1, "text": "342 kJ/mol" },
+      { "id": 2, "text": "117 kJ/mol" },
+      { "id": 3, "text": "63 kJ/mol" }
+    ],
+    "correct": 1 
+  },
+  { "id": 10, 
+    "text": "How man dipole magnets has the Large Hadron Collider?", 
+    "answers": [
+      { "id": 1, "text": "689" },
+      { "id": 2, "text": "1292" },
+      { "id": 3, "text": "777" }
+    ],
+    "correct": 2 
   }
 ]
