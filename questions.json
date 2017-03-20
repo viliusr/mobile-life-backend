@@ -74,7 +74,7 @@
     "correct": 3 
   },
   { "id": 9, 
-    "text": "What temperature do we need to vapor gold?", 
+    "text": "How much energy do we need to vapor gold?", 
     "answers": [
       { "id": 1, "text": "342 kJ/mol" },
       { "id": 2, "text": "117 kJ/mol" },
