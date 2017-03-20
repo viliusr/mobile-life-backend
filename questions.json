@@ -83,7 +83,7 @@
     "correct": 1 
   },
   { "id": 10, 
-    "text": "How man dipole magnets has the Large Hadron Collider?", 
+    "text": "How many dipole magnets does the Large Hadron Collider have?", 
     "answers": [
       { "id": 1, "text": "689" },
       { "id": 2, "text": "1292" },
