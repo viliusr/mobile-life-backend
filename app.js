@@ -1,8 +1,10 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const config = require('./config.json')
+const questions = require('./questions.json')
 const qc = require('./controllers/QuestionsCtrl.js')
 
-const QuestionsCtrl = new qc()
+const QuestionsCtrl = new qc(config, questions)
 const app = express()
 
 app.use(bodyParser.urlencoded({

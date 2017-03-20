@@ -1,22 +1,24 @@
-const config = require('../config.json')
-const questions = require('../questions.json')
-
 class QuestionsCtrl {
 
+  constructor(config, questions) {
+    this.config = config
+    this.questions = questions
+  }
+
   getQuestions() {
-    return JSON.parse(JSON.stringify(questions))
+    return JSON.parse(JSON.stringify(this.questions))
   }
 
   prepareQuestions() {
 
     const questions = this.getQuestions()
 
-    if (config.numberOfQuestions > questions.length) {
+    if (this.config.numberOfQuestions > questions.length) {
       throw 'Issuficient quantity of questions'
     }
 
     // Pick random questions
-    let output = this.getRandom(questions, config.numberOfQuestions)
+    let output = this.getRandom(questions, this.config.numberOfQuestions)
 
     output.forEach(item => {
       // Randomize answers order
@@ -38,7 +40,7 @@ class QuestionsCtrl {
       preparedQuestions[question.id] = question.correct
     })
 
-    if (!config.allowSkipQuestions && Object.keys(input).length !== config.numberOfQuestions) {
+    if (!this.config.allowSkipQuestions && Object.keys(input).length !== this.config.numberOfQuestions) {
       return { status }
     }
 
@@ -48,7 +50,7 @@ class QuestionsCtrl {
       }
     }
 
-    if (mistakes <= config.mistakesAllowed) {
+    if (mistakes <= this.config.mistakesAllowed) {
       status = true
     }
 

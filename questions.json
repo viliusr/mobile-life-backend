@@ -56,7 +56,7 @@
     "correct": 1 
   },
   { "id": 7, 
-    "text": "How long does light travels from Sun to Earth?", 
+    "text": "How long does light travel from Sun to Earth?", 
     "answers": [
       { "id": 1, "text": "2 min 41 s" },
       { "id": 2, "text": "8 min 19 s" },
